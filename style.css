@@ -159,3 +159,92 @@ body {
     font-size: 0.95rem;
 }
 
+
+
+
+/* PRICING SECTION */
+.pricing-section {
+    padding: 80px 8%;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.pricing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.pricing-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 40px 30px;
+    width: 320px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pro-card {
+    background: #0f172a;
+    color: white;
+    border: none;
+    transform: scale(1.03); /* Slightly larger to stand out */
+}
+
+.plan-name {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #6b7280;
+    letter-spacing: 0.1em;
+}
+
+.pro-card .plan-name {
+    color: #94a3b8;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.per-person {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #6b7280;
+}
+
+.pro-card .per-person {
+    color: #94a3b8;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #4b5563;
+    position: relative;
+    padding-left: 20px;
+}
+
+.pro-card ul li {
+    color: #cbd5e1;
+}
