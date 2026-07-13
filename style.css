@@ -120,7 +120,7 @@ body {
     border: 1px solid #e5e7eb;
     border-radius: 8px;
     overflow: hidden;
-    width: calc(50% - 15px); /* Creates a 2-column layout */
+    width: calc(50% - 15px);
     text-align: left;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
@@ -144,10 +144,21 @@ body {
     margin-bottom: 8px;
 }
 
-.ai { color: #2563eb; }
-.cloud { color: #059669; }
-.frontend { color: #ea580c; }
-.security { color: #7c3aed; }
+.ai {
+    color: #2563eb;
+}
+
+.cloud {
+    color: #059669;
+}
+
+.frontend {
+    color: #ea580c;
+}
+
+.security {
+    color: #7c3aed;
+}
 
 .speaker-info h3 {
     font-size: 1.4rem;
@@ -202,7 +213,7 @@ body {
     background: #0f172a;
     color: white;
     border: none;
-    transform: scale(1.03); /* Slightly larger to stand out */
+    transform: scale(1.03);
 }
 
 .plan-name {
